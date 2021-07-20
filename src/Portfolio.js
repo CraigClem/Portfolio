@@ -3,8 +3,8 @@ import React from 'react'
 function Portfolio () {
   return (
     <>
-      <h1>Projects</h1>
       <div className="portfolio" id="portfolio">
+        <h1>Projects</h1>
         <div className="project-container">
           <div className="project-image">
             <a href="https://craigclem.github.io/SpaceInvader-Game/" target="_blank" rel="noreferrer">

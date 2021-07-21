@@ -157,7 +157,6 @@ a {
     display:flex;
     flex-direction:row;
     height:fit-content;
-    font-size: 24px;
     padding:10px;
     margin: 5px 20px 5px 20px;
 }
@@ -217,15 +216,22 @@ h1 {
 
 .project-container {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:center;
   color:black;
-  margin: 5px 0px;
+  margin: 10px 10px;
   height:fit-content;
+}
+
+
+.project-image {
+  display: flex;
+  justify-content:center;
 }
 
 .project-image img {
   display:flex;
+  text-align:center;
   width: 250px;
   margin: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -233,6 +239,7 @@ h1 {
 h2 {
   padding-left: 5px;
   text-align: center;
+  font-size: 28px;
   margin: 8px;
 }
 
@@ -240,13 +247,15 @@ h2 {
   display:flex;
   text-align: center;
   margin: 5px 0px;
-  padding-left: 5px;
-  width:400px;
+  // padding-left: 5px;
+  width:auto;
 }
 
-.project-text i {
+.project-text i  {
   font-size:50px;
+  display: flex;
   justify-content: center;
+  
 }
 
 .contact-container i {

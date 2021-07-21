@@ -5,7 +5,6 @@ function Nav() {
   return (
 
     <div className="navbar-container">
-      <Link to="about" smooth={true} duration={1000}>About</Link>
       <Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link>
       <Link to="tech" smooth={true} duration={1000}>Technologies</Link>
       <Link to="interests" smooth={true} duration={1000}>Interests</Link>

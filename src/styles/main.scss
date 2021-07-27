@@ -11,11 +11,19 @@ overflow:hidden
 }
 
 .tech {
+  display:flex;
   height:auto;
   width: 100%;
   font-family: 'poppins';
   margin: 100px 0px;
 }
+
+.tech p {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+}
+
 .tech-container {
   display: flex;
   justify-content: center;
